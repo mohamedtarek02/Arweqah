@@ -65,7 +65,6 @@ export default defineNuxtConfig({
     "vuetify/dist/vuetify.min.css",
     "@/assets/css/main.css",
     "@/assets/scss/style.scss",
-    "@fortawesome/fontawesome-pro/css/all.css",
   ],
 
   postcss: {
