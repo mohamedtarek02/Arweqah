@@ -10,8 +10,8 @@
 
 # Added feature and comments
 
-### The website is fully multilingual, offering support for multiple languages to provide a seamless experience for users around the world.
-### Pinia is configured and ready for use, although the current stage of the project does not yet require centralized state management.
+- The website is fully multilingual, offering support for multiple languages to provide a seamless experience for users around the world.
+- Pinia is configured and ready for use, although the current stage of the project does not yet require centralized state management.
 ### TypeScript is used throughout the project to help catch potential runtime errors early and improve code maintainability.
 ### A suitable home page design has been created to introduce and identify the purpose of the project.
 ### Vuetify cards have been implemented to enhance the visual appeal and consistency of the user interface.
