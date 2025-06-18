@@ -1,5 +1,5 @@
 
-# To run and install project follow this commands
+# After installing project, follow this commands:
 #### npm install
 #### npm run dev
 
