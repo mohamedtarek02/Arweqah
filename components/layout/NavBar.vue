@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 import { useI18n, useCookie } from "#imports";
 import arweqaLogo from "@/assets/images/logos/arweqa-logo.svg";
@@ -15,7 +15,11 @@ onMounted(() => {
   isScrolled.value = window.scrollY > 50;
 });
 
-const sections = [
+interface Section {
+  url: string;
+  name: string;
+}
+const sections: Section[] = [
   { url: "home", name: t("Home") },
   { url: "new-feeds", name: t("NewFeeds") },
 ];

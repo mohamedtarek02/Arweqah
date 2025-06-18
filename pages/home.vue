@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 definePageMeta({
   title: "Home",
   layout: "home",
@@ -7,7 +7,15 @@ definePageMeta({
 import { useI18n } from "#imports";
 const { t } = useI18n({ useScope: "global" });
 
-const cards = [
+interface Card {
+  title: string;
+  description: string;
+  linkCaption: string;
+  linkPath: string;
+  icon: string;
+}
+
+const cards: Card[] = [
   {
     title: t("LatestContentTitle"),
     description: t("LatestContentDesc"),
