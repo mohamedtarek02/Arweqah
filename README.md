@@ -23,5 +23,6 @@
 - Animation rendering has been added for the home page cards for a better user experience.
 - Font Awesome is set up, providing a wide variety of high-quality icons for a better visual experience.
 - Dynamic tabs title according to active page.
+- Cookies are used to retain the user's language preference for future visits.
 
 
