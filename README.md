@@ -22,5 +22,6 @@
 - Friendly error user notification when failed to fetch. 
 - Animation rendering has been added for the home page cards for a better user experience.
 - Font Awesome is set up, providing a wide variety of high-quality icons for a better visual experience.
+- Dynamic tabs title according to active page.
 
 
