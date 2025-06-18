@@ -11,7 +11,7 @@
 - TypeScript is used throughout the project to help catch potential runtime errors early and improve code maintainability.
 - Vuetify cards have been implemented to enhance the visual appeal and consistency of the user interface.
 - The layout is responsive and optimized for various screen sizes, ensuring a good experience on both desktop and mobile devices.
-- Posts different scenarios have been covered; Loader is added when loading more posts and no more posts message when there are no posts.
+- Posts different scenarios have been covered; Loader is added when loading more posts and no more posts message when there are no more posts.
 - A utility has been created for formatting dates and times in a good format using "moment" library.
 - Friendly error user notification when failed to fetch. 
 - Animation rendering has been added for the home page cards for a better user experience.
