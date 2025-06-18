@@ -8,7 +8,7 @@
 
 ##### The composable allows you to load posts from a paginated API using infinite scroll. It keeps track of the posts, the current page, and whether more data is available. You just call loadMore() whenever you want to fetch more posts — usually when the user scrolls near the bottom. It also ensures that it does not reload while it's still waiting for a response. When there are no posts, stop fetching data and displaying the "No more posts" message.
 
-# Added features and 
+# Features 
 
 - The website is fully multilingual, offering support for multiple languages to provide a seamless experience for users around the world.
 - TypeScript is used throughout the project to help catch potential runtime errors early and improve code maintainability.
