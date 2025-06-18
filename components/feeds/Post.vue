@@ -41,7 +41,7 @@ defineProps({
         </p>
         <!-- createdAt -->
         <div class="flex items-center gap-2">
-          <FontAwesomeIcon icon="fal fa-calendar" class="w-4 h-4" />
+          <FontAwesomeIcon icon="far fa-calendar" class="w-4 h-4" />
           <span class="text-gray-400">
             {{ formatDate(createdAt) }}
           </span>

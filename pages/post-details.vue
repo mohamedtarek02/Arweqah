@@ -31,7 +31,7 @@ import { formatDate } from "@/utils/formatDate";
     <div class="mt-4">
       <NuxtLink :to="localePath({ name: 'new-feeds' })">
         <BaseButton class="flex mx-auto gap-2 items-center">
-          <FontAwesomeIcon icon="fal fa-arrow-left" class="w-5 h-5" />
+          <FontAwesomeIcon icon="far fa-arrow-left" class="w-5 h-5" />
           <span>{{ $t("BackToFeeds") }}</span>
         </BaseButton>
       </NuxtLink>

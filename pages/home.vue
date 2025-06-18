@@ -21,7 +21,7 @@ const cards: Card[] = [
     description: t("LatestContentDesc"),
     linkCaption: t("LatestContentLink"),
     linkPath: "new-feeds",
-    icon: "arrow-trend-up",
+    icon: "arrow-up-right-from-square",
   },
 
   {
@@ -54,7 +54,7 @@ const cards: Card[] = [
       <NuxtLink :to="localePath({ name: 'new-feeds' })">
         <BaseButton class="flex mx-auto gap-2 items-center">
           <span>{{ $t("ExploreFeeds") }}</span>
-          <FontAwesomeIcon icon="fal fa-square-up-right" class="w-5 h-5" />
+          <FontAwesomeIcon icon="fars fa-square-up-right" class="w-5 h-5" />
         </BaseButton>
       </NuxtLink>
     </div>
