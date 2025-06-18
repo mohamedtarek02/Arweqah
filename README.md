@@ -19,7 +19,7 @@
 - Font Awesome is set up, providing a wide variety of high-quality icons for a better visual experience.
 - Dynamic tab title according to the active page.
 - Cookies are used to retain the user's language preference for future visits.
-- Post details are sent as params inside the post details page, because there is no endpoint to get post details by ID.
+-  A suitable home page design has been created to introduce and identify the purpose of the project.
 
 # comments
 - Pinia is configured and ready for use, although the current stage of the project does not yet require centralized state management.
