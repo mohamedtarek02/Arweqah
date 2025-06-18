@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mb-[24px] w-[523px]">
+  <div class="relative mb-[24px] sm:w-full md:w-[523px]">
     <span
       class="w-5 h-5 text-darkGray absolute top-[30px] ltr:left-[15px] rtl:right-[15px] cursor-auto"
     >
