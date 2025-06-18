@@ -18,5 +18,7 @@
 ### The layout is responsive and optimized for various screen sizes, ensuring a good experience on both desktop and mobile devices.
 ### Post details are sent as params inside the post details page, because there is no endpoint to get post details by ID.
 ### Loader is added when loading more posts and no more posts message when there are no posts.
+### Utility has been created for formatting date and time in a good format using "moment" library.
+### Friendly error user notification when failed to fetch. 
 
 
