@@ -9,11 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "qc": "npx nuxi build --preset=iis_node --dotenv .env.qc",
-    "devbuild": "npx nuxi build --preset=iis_node --dotenv .env",
-    "fonts": "(npm config set \"@fortawesome:registry\" https://npm.fontawesome.com/) && (npm config set \"//npm.fontawesome.com/:_authToken\" 1A2C59A5-6AE7-41EC-AE5A-201111486C29) && (npm install)"
+    "devbuild": "npx nuxi build --preset=iis_node --dotenv .env"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "^6.7.2",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
