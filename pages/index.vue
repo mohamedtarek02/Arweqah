@@ -1,5 +1,12 @@
 <script setup>
 definePageMeta({
-  redirect: "/home",
+  title: "Home",
+  layout: "home",
 });
 </script>
+
+<template>
+  <main class="container py-4">
+    <h2>Home</h2>
+  </main>
+</template>
