@@ -4,7 +4,7 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Arweqah",
+      title: "Altariq",
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },
@@ -48,8 +48,10 @@ export default defineNuxtConfig({
   plugins: [
     "@/plugins/axios.js",
     "@/plugins/pinia.js",
+    "@/plugins/provide.js",
     "@/plugins/notification.js",
     "@/plugins/fontawesome.js",
+    "@/plugins/yupErrorMessages.js",
   ],
 
   // Define alias inside the `vite` property
@@ -59,12 +61,18 @@ export default defineNuxtConfig({
         "@": resolve(__dirname), // This resolves `@` to the root of your project
       },
     },
+    // plugins: [
+    //   require("@intlify/unplugin-vue-i18n").vite({
+    //     include: [resolve(__dirname, "locales/**")],
+    //   }),
+    // ],
   },
 
   css: [
     "vuetify/dist/vuetify.min.css",
     "@/assets/css/main.css",
     "@/assets/scss/style.scss",
+    "@fortawesome/fontawesome-pro/css/all.css",
   ],
 
   postcss: {
@@ -74,5 +82,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: "2025-06-18",
+  compatibilityDate: "2024-12-19",
 });
