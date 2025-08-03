@@ -3,7 +3,7 @@
     <span
       class="w-5 h-5 text-darkGray absolute top-[30px] ltr:left-[15px] rtl:right-[15px] cursor-auto"
     >
-      <FontAwesomeIcon icon="fas fa-magnifying-glass" class="w-5 h-5" />
+      <FontAwesomeIcon icon="far fa-magnifying-glass" class="w-5 h-5" />
     </span>
     <input
       type="text"

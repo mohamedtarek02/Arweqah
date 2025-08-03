@@ -4,7 +4,7 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Altariq",
+      title: "Arweqah",
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
   },
@@ -48,10 +48,8 @@ export default defineNuxtConfig({
   plugins: [
     "@/plugins/axios.js",
     "@/plugins/pinia.js",
-    "@/plugins/provide.js",
     "@/plugins/notification.js",
     "@/plugins/fontawesome.js",
-    "@/plugins/yupErrorMessages.js",
   ],
 
   // Define alias inside the `vite` property
@@ -72,7 +70,6 @@ export default defineNuxtConfig({
     "vuetify/dist/vuetify.min.css",
     "@/assets/css/main.css",
     "@/assets/scss/style.scss",
-    "@fortawesome/fontawesome-pro/css/all.css",
   ],
 
   postcss: {

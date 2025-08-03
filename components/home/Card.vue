@@ -32,7 +32,7 @@ defineProps({
       <div
         class="bg-blue-100 rounded-full p-3 transition-colors duration-300 group-hover:bg-blue-200"
       >
-        <FontAwesomeIcon :icon="`fas fa-${icon}`" class="w-5 h-5" />
+        <FontAwesomeIcon :icon="`far fa-${icon}`" class="w-5 h-5" />
       </div>
       <!-- Title -->
       <h2 class="text-lg font-semibold">{{ title }}</h2>
